@@ -1,0 +1,8 @@
+.footer__item_position_one {
+  left: 60px;
+  background-color: #FF8345;
+  background-image: url("../../../../images/plus.png");
+  background-position: center;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}

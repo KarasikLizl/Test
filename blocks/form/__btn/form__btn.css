@@ -1,0 +1,14 @@
+.form__btn {
+  position: absolute;
+  left: 540px;
+  top: 4px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #48B774;
+  border: none;
+  background-image: url("../../../images/search1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

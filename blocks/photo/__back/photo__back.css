@@ -1,0 +1,10 @@
+.photo__back {
+  background-color: #48B774;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  position: absolute;
+  top: 73px;
+  right: 276px;
+  z-index: -1;
+}

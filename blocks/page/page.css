@@ -1,0 +1,9 @@
+.page {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 149px;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #ECF7F3;
+  color: #2D2D2D;
+  position: relative;
+}

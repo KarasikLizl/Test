@@ -1,0 +1,6 @@
+.header {
+  max-width: 1118px;
+  
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,10 @@
+.photo__circle {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 2px solid #E8E8E8;
+  position: absolute;
+  top: -44px;
+  right: 196px;
+  z-index: -1;
+}

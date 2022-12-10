@@ -1,0 +1,15 @@
+.footer__item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 9px;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}

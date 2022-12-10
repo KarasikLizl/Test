@@ -1,8 +1,29 @@
 .photo {
   position: absolute;
   left: 630px;
-  width: 836px;
-  background-image: url("../../../images/main-img.png");
-  width: 836px;
-  height: 557px;
+}
+
+@media (max-width: 1200px) {
+  .photo {
+    left: 450px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .photo {
+    margin-top: 150px;
+    position: static;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .photo {
+    position: static;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo {
+    position: static;
+  }
 }

@@ -1,6 +1,30 @@
 .header {
-  max-width: 1118px;
-  
+  max-width: 1118px;  
   display: flex;
   flex-direction: row;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    max-width: 936px; 
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    max-width: 820px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    max-width: 700px; 
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .header {
+    flex-wrap: wrap;
+  }
 }

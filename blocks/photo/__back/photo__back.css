@@ -3,8 +3,28 @@
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  position: absolute;
-  top: 73px;
-  right: 276px;
   z-index: -1;
+  margin-top: 117px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .photo__back {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .photo__back {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .photo__back {
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+  }
 }

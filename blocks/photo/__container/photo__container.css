@@ -1,0 +1,13 @@
+.photo__container {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 770px;
+  display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .photo__container {
+    width: 320px;
+    margin-top: 50px;
+  }
+}

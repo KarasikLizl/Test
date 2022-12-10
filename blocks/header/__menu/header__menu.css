@@ -7,3 +7,10 @@
   width: 365px;
   justify-content: space-between;
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+  .header__menu {
+    flex-direction: column;
+    width: 120px;
+  }
+}

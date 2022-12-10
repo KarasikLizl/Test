@@ -11,3 +11,21 @@
   line-height: 19px;
   color: #A1A1A1;
 }
+
+@media (max-width: 1200px) {
+  .form__input {
+    width: 350px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .form__input {
+    width: 250px;
+  }
+
+  .form__input::placeholder {
+    font-size: 12px;
+    line-height: 14px;
+    color: #A1A1A1;
+  }
+}

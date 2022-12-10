@@ -5,6 +5,36 @@
   border: 2px solid #E8E8E8;
   position: absolute;
   top: -44px;
-  right: 196px;
+  right: 160px;
   z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .photo__circle {
+    width: 350px;
+    height: 350px;
+    right: 240px;
+    top: -24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .photo__circle {
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    left: 230px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .photo__circle {
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 55px;
+  }
 }

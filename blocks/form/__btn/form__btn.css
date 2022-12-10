@@ -12,3 +12,15 @@
   background-repeat: no-repeat;
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+  .form__btn {
+    left: 333px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .form__btn {
+    left: 230px;
+  }
+}

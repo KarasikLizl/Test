@@ -1,0 +1,12 @@
+.photo__item_size_l {
+  width: 60px;
+  height: 60px;
+  background-image: url("../../../../images/item-flag2.png");
+}
+
+@media (max-width: 768px) {
+  .photo__item_size_l {
+    width: 30px;
+    height: 30px;
+  }
+}

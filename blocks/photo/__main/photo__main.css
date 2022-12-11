@@ -1,12 +1,12 @@
 .photo__main {
-  background-image: url("../../../images/main-img.png");
   width: 836px;
-  height: 557px;
-  overflow: hidden;
-  box-sizing: border-box;
+  overflow-y: hidden;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  z-index: 2;
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -17,9 +17,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .photo__main {
-    width: 700px;
-    height: 400px;
-    
+    width: 700px;    
   }
 }
 
@@ -27,6 +25,5 @@
   .photo__main {
     flex-direction: column;
     width: 320px;
-    height: 300px;
   }
 }

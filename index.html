@@ -3,21 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Global</title>
   </head>
 
   <body class="page">
     <header class="header">
-      <img class="header__logo" src="./images/logo-img.svg"/>
+      <img class="header__logo" src="./images/logo-img.svg" />
       <h3 class="header__title">Global</h3>
       <nav class="header__nav">
         <div class="header__item header__item_main">Menu</div>
         <ul class="header__menu">
-          <li class="header__item"><a class="header__link" href="#">Mobile Top Up</a></li>
-          <li class="header__item"><a class="header__link" href="#">About</a></li>
-          <li class="header__item"><a class="header__link" href="#"> Rate</a></li>
-          <li class="header__item"><a class="header__link" href="#">Help</a></li>
+          <li class="header__item">
+            <a class="header__link" href="#">Mobile Top Up</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">About</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#"> Rate</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Help</a>
+          </li>
         </ul>
       </nav>
       <button class="header__btn">Sign Up</button>
@@ -25,11 +33,18 @@
     <main class="main">
       <section class="photo">
         <div class="photo__container">
-          <div class="photo__main"></div>
+          <img class="photo__main" src="./images/main-img.png"/>
+          <div class="photo__circle">              
+                <div class="photo__item" id="first-item"></div>
+                <div class="photo__item photo__item_size_l" id="second-item"></div>
+                <div class="photo__item photo__item_size_s" id="third-item"></div>
+                <div class="photo__item photo__item_size_m" id="fourth-item"></div>
+                <div class="photo__item" id="fifth-item"></div>              
+              <div class="photo__back">
+            </div>
+           
+          </div>
         </div>
-        
-        <div class="photo__circle"><div class="photo__back"></div></div>   
-        <div class="photo__animation"></div>
       </section>
       <section class="lead">
         <h1 class="lead__title">
@@ -46,19 +61,25 @@
           <input
             class="form__input"
             placeholder="Where do you whant to call?"
+            maxlength="12"
+            minlength="4"
+            type="text"
           />
           <button class="form__btn"></button>
         </form>
       </section>
-      
+
       <footer class="footer">
         <ul class="footer__items">
           <li class="footer__item footer__item_position_one"></li>
           <li class="footer__item footer__item_position_two"></li>
           <li class="footer__item footer__item_position_three"></li>
-          <li class="footer__item footer__item_position_four"></li> 
+          <li class="footer__item footer__item_position_four"></li>
         </ul>
-        <p class="footer__subtitle">45+k Regular User. <a class="footer__link" href="#">View Price Plan</a></p>
+        <p class="footer__subtitle">
+          45+k Regular User.
+          <a class="footer__link" href="#">View Price Plan</a>
+        </p>
       </footer>
     </main>
     <script src="./scripts/script.js"></script>

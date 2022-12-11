@@ -16,17 +16,16 @@
   .photo__circle {
     width: 350px;
     height: 350px;
-    right: 240px;
     top: -24px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .photo__circle {
-    top: 170px;
-    width: 260px;
-    height: 260px;
-    left: 250px;
+    top: -50px;
+    width: 350px;
+    height: 350px;
+    left: 170px;
   }
 }
 
@@ -34,7 +33,7 @@
   .photo__circle {
     width: 200px;
     height: 200px;
-    top: 200px;
+    top: -50px;
     left: 55px;
   }
 }

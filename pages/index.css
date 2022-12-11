@@ -30,6 +30,11 @@
 @import url("../blocks/photo/__main/photo__main.css");
 @import url("../blocks/photo/__back/photo__back.css");
 @import url("../blocks/photo/__circle/photo__circle.css");
+@import url("../blocks/photo/__item/photo__item.css");
+@import url("../blocks/photo/__animation/photo__animation.css");
+@import url("../blocks/photo/__item/_size/photo__item_size_s.css");
+@import url("../blocks/photo/__item/_size/photo__item_size_m.css");
+@import url("../blocks/photo/__item/_size/photo__item_size_l.css");
 /* footer styles */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__items/footer__items.css");

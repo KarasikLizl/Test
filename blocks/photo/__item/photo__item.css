@@ -1,0 +1,116 @@
+.photo__item {
+  width: 30px;
+  height: 30px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background-image: url("../../../images/item-flag1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+  top: 225px;
+  right: 200px;
+  transition: transform 1s ease-out;
+}
+
+.photo__item:nth-of-type(1) {
+  transition-delay: 3s;
+}
+.photo__item:nth-of-type(2) {
+  transition-delay: 3.4s;
+}
+.photo__item:nth-of-type(3) {
+  transition-delay: 3.8s;
+}
+.photo__item:nth-of-type(4) {
+  transition-delay: 4.2s;
+}
+.photo__item:nth-of-type(5) {
+  transition-delay: 4.6s;
+}
+
+.photo__item:nth-of-type(1) {
+  transform: translateX(-225px);
+}
+.photo__item:nth-of-type(2) {
+  transform: translateX(-185px) translateY(-125px);
+}
+.photo__item:nth-of-type(3) {
+  transform: translateY(-255px);
+}
+.photo__item:nth-of-type(4) {
+  transform: translateX(210px) translateY(-125px);
+}
+.photo__item:nth-of-type(5) {
+  transform: translateX(225px);
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .photo__item {
+    top: 155px;
+    right: 150px;
+  }
+
+  .photo__item:nth-of-type(1) {
+    transform: translateX(-175px);
+  }
+  .photo__item:nth-of-type(2) {
+    transform: translateX(-155px) translateY(-90px);
+  }
+  .photo__item:nth-of-type(3) {
+    transform: translateY(-175px);
+  }
+  .photo__item:nth-of-type(4) {
+    transform: translateX(160px) translateY(-90px);
+  }
+  .photo__item:nth-of-type(5) {
+    transform: translateX(175px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .photo__item {
+    top: 155px;
+    right: 150px;
+  }
+
+  .photo__item:nth-of-type(1) {
+    transform: translateX(-175px);
+  }
+  .photo__item:nth-of-type(2) {
+    transform: translateX(-145px) translateY(-90px);
+  }
+  .photo__item:nth-of-type(3) {
+    transform: translateY(-175px);
+  }
+  .photo__item:nth-of-type(4) {
+    transform: translateX(145px) translateY(-90px);
+  }
+  .photo__item:nth-of-type(5) {
+    transform: translateX(175px);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .photo__item {
+    top: 80px;
+    right: 70px;
+  }
+
+  .photo__item:nth-of-type(1) {
+    transform: translateX(-100px);
+  }
+  .photo__item:nth-of-type(2) {
+    transform: translateX(-85px) translateY(-60px);
+  }
+  .photo__item:nth-of-type(3) {
+    transform: translateY(-100px);
+  }
+  .photo__item:nth-of-type(4) {
+    transform: translateX(85px) translateY(-60px);
+  }
+  .photo__item:nth-of-type(5) {
+    transform: translateX(100px);
+  }
+}

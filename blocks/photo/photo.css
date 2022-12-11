@@ -11,7 +11,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .photo {
-    margin-top: 150px;
+    margin-top: 80px;
     position: static;
   }
 }

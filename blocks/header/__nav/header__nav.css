@@ -23,7 +23,7 @@
 @media (min-width: 320px) and (max-width: 767px){
   .header__nav {
     flex-direction: column;
-    margin-left: 110px;
+    margin-left: 50px;
     max-width: 60px;
   }
 }

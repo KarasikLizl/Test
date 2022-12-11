@@ -4,3 +4,10 @@
   font-weight: 500;
   line-height: 37.5px;
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+  .header {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

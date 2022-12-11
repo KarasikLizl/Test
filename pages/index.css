@@ -9,9 +9,12 @@
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__nav/header__nav.css");
 @import url("../blocks/header/__menu/header__menu.css");
+@import url("../blocks/header/__menu/_hide/header__menu_hide.css");
 @import url("../blocks/header/__item/header__item.css");
 @import url("../blocks/header/__link/header__link.css");
 @import url("../blocks/header/__btn/header__btn.css");
+@import url("../blocks/header/__item/_main/header__item_main.css");
+@import url("../blocks/header/__item/_opened/header__item_opened.css");
 /* lead styles */
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/_color/lead_color.css");

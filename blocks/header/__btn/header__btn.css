@@ -18,6 +18,10 @@
 
 @media (min-width: 320px) and (max-width: 767px){
   .header__btn {
-    margin-left: 80px;
+    margin-left: 60px;
+    align-self: flex-start;
+    min-width: 80px;
+    font-size: 12px;
+    line-height: 28px;
   }
 }

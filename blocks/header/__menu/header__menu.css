@@ -12,5 +12,6 @@
   .header__menu {
     flex-direction: column;
     width: 90px;
+    position: absolute;
   }
 }
